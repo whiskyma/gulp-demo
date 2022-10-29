@@ -1,0 +1,28 @@
+{
+    "name": "gulp2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "gulp": "^4.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-env": "^7.10.2",
+        "del": "^5.1.0",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-connect": "^5.7.0",
+        "gulp-pug": "^5.0.0",
+        "gulp-stylus": "^2.7.1",
+        "gulp-uglify": "^3.0.2",
+        "http-proxy-middleware": "^1.0.4"
+    }
+}

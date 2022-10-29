@@ -1,0 +1,11 @@
+extends layout.pug
+block link
+    title 首页
+    link(rel='stylesheet' href='./css/app.css')
+block content
+    button.btn1(onclick="btnFun()") 按钮1
+    button.btn2(onclick="btnFun('你点击我，你到底想干呢？')") 按钮2
+    - var pets = ['猫', '狗', '鸭', '猴']
+    each petName in pets
+        h2 #{petName}
+    script(src="./js/app.js")
